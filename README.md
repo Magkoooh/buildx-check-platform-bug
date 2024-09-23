@@ -1,3 +1,5 @@
+Reproduces https://github.com/docker/buildx/issues/2708
+
 # Steps to Reproduce:
 
 1. Build `projectA` using a platform that is not your native platform. For example on an Apple M1: `docker buildx build --platform=linux/amd64 -t test/project-a:0.1 ./projectA`
